@@ -11,6 +11,10 @@ INCLUDEPATH += include
 
 include(src/src.pri)
 
+LIBS += -lopengl32
+LIBS += -lglut32
+LIBS += -lglu32
+
 FORMS += forms/mainwindow.ui
 
 RESOURCES += glsl.qrc
